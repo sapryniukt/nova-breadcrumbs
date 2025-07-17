@@ -1,38 +1,43 @@
 {
-    "name": "formfeed-uk/nova-breadcrumbs",
-    "description": "A Laravel Nova package to extend the capabilities of the first party Nova Breadcrumbs",
-    "homepage": "https://github.com/formfeed-uk/nova-breadcrumbs",
-    "license": "MIT",
-    "keywords": [
-        "laravel",
-        "nova",
-        "breadcrumbs"
-    ],
-    "require": {
-        "php": "^7.4|^8",
-        "laravel/nova": "^4.19"
+  "name": "formfeed-uk/nova-breadcrumbs",
+  "description": "A Laravel Nova package to extend the capabilities of the first party Nova Breadcrumbs",
+  "homepage": "https://github.com/formfeed-uk/nova-breadcrumbs",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "nova",
+    "breadcrumbs"
+  ],
+  "require": {
+    "php": "^7.4|^8",
+    "laravel/nova": "^4.19",
+    "formfeed-uk/nova-resource-cards": "1.1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Formfeed\\Breadcrumbs\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Formfeed\\Breadcrumbs\\BreadcrumbServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
     },
-    "autoload": {
-        "psr-4": {
-            "Formfeed\\Breadcrumbs\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Formfeed\\Breadcrumbs\\BreadcrumbServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    {
+      "type": "vcs",
+      "url": "https://github.com/sapryniukt/nova-resource-cards.git"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
