@@ -728,12 +728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sapryniukt/nova-resource-cards.git",
-                "reference": "fc8c5e3b3aed9829928a36299147ff21e9e80892"
+                "reference": "f765c49900a722ee076d34638dd9919e8caecf0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sapryniukt/nova-resource-cards/zipball/fc8c5e3b3aed9829928a36299147ff21e9e80892",
-                "reference": "fc8c5e3b3aed9829928a36299147ff21e9e80892",
+                "url": "https://api.github.com/repos/sapryniukt/nova-resource-cards/zipball/f765c49900a722ee076d34638dd9919e8caecf0e",
+                "reference": "f765c49900a722ee076d34638dd9919e8caecf0e",
                 "shasum": ""
             },
             "require": {
@@ -766,7 +766,7 @@
             "support": {
                 "source": "https://github.com/sapryniukt/nova-resource-cards/tree/1.1.2"
             },
-            "time": "2025-07-17T09:30:53+00:00"
+            "time": "2025-07-17T09:54:41+00:00"
         },
         {
             "name": "fruitcake/php-cors",
